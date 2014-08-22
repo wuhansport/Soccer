@@ -4,5 +4,11 @@
     <string name="app_name">Soccer</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="profile">档案</string>
+    <string name="team">球队</string>
+    <string name="match">比赛</string>
+    <string name="reserve">预订</string>
+    <string name="finance">财务</string>
+    <string name="more">更多</string>
 
 </resources>

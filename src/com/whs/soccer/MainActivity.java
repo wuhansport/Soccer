@@ -1,10 +1,13 @@
 package com.whs.soccer;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 public class MainActivity extends Activity {
+    
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -12,11 +15,23 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.profile_tv:
+                Log.d(TAG, "profile click");
+                break;
+            case R.id.team_tv:
+                Log.d(TAG, "team click");
+                break;
+            case R.id.match_tv:
+                Log.d(TAG, "match click");
+                break;
+            case R.id.reserve_tv:
+                Log.d(TAG, "reserve click");
+                break;
+            case R.id.finance_tv:
+                Log.d(TAG, "finance click");
+                break;
+        }
     }
-
 }
