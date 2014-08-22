@@ -10,5 +10,10 @@
     <string name="reserve">预订</string>
     <string name="finance">财务</string>
     <string name="more">更多</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_match">MatchActivity</string>
+    <string name="title_activity_reserve">ReserveActivity</string>
+    <string name="title_activity_finance">FinanceActivity</string>
 
 </resources>

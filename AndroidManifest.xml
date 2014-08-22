@@ -22,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.whs.soccer.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name="com.whs.soccer.TeamActivity"
+            android:label="@string/title_activity_team" >
+        </activity>
+        <activity
+            android:name="com.whs.soccer.MatchActivity"
+            android:label="@string/title_activity_match" >
+        </activity>
+        <activity
+            android:name="com.whs.soccer.ReserveActivity"
+            android:label="@string/title_activity_reserve" >
+        </activity>
+        <activity
+            android:name="com.whs.soccer.FinanceActivity"
+            android:label="@string/title_activity_finance" >
+        </activity>
     </application>
 
 </manifest>
