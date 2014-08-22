@@ -1,4 +1,8 @@
-package com.whs.soccer;
+package com.whs.soccer.activity;
+
+import com.whs.soccer.R;
+import com.whs.soccer.R.layout;
+import com.whs.soccer.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

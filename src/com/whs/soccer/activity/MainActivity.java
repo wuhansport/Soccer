@@ -1,4 +1,8 @@
-package com.whs.soccer;
+package com.whs.soccer.activity;
+
+import com.whs.soccer.R;
+import com.whs.soccer.R.id;
+import com.whs.soccer.R.layout;
 
 import android.app.Activity;
 import android.content.Intent;
