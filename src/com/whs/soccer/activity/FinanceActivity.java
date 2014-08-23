@@ -1,19 +1,19 @@
 package com.whs.soccer.activity;
 
-import com.whs.soccer.R;
-import com.whs.soccer.R.layout;
-import com.whs.soccer.R.menu;
-
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
-public class FinanceActivity extends Activity {
+import com.whs.soccer.R;
+import com.whs.soccer.ui.base.SubBaseActivity;
+
+public class FinanceActivity extends SubBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finance);
+        ((TextView)findViewById(R.id.title)).setText(R.string.finance);
     }
 
     @Override

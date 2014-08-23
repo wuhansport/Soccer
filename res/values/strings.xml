@@ -15,5 +15,5 @@
     <string name="title_activity_match">MatchActivity</string>
     <string name="title_activity_reserve">ReserveActivity</string>
     <string name="title_activity_finance">FinanceActivity</string>
-
+    <string name="quit_tips">再按点击退出</string>
 </resources>

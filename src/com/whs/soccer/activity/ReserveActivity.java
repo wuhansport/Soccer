@@ -1,19 +1,19 @@
 package com.whs.soccer.activity;
 
-import com.whs.soccer.R;
-import com.whs.soccer.R.layout;
-import com.whs.soccer.R.menu;
-
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
-public class ReserveActivity extends Activity {
+import com.whs.soccer.R;
+import com.whs.soccer.ui.base.SubBaseActivity;
+
+public class ReserveActivity extends SubBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reserve);
+        ((TextView)findViewById(R.id.title)).setText(R.string.reserve);
     }
 
     @Override
