@@ -7,7 +7,7 @@
     <string name="profile">档案</string>
     <string name="team">球队</string>
     <string name="match">比赛</string>
-    <string name="reserve">预订</string>
+    <string name="reserve">订场</string>
     <string name="finance">财务</string>
     <string name="more">更多</string>
     <string name="title_activity_profile">ProfileActivity</string>
